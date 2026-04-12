@@ -9,7 +9,7 @@ function fish_right_prompt
 
     set parts $parts (date '+%H:%M:%S')
 
-    set_color brblack
+    set_color brblack --dim
     string join ' ' -- $parts
     set_color normal
 end
