@@ -1,0 +1,6 @@
+font-family = IosevkaTerm Nerd Font Mono
+theme = Ayu Light
+cursor-style = block
+cursor-color = #FFCC66
+shell-integration-features = ssh-terminfo
+shell-integration-features = no-cursor
