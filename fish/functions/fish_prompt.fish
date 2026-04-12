@@ -6,8 +6,6 @@ function fish_prompt
     set -g __fish_git_prompt_showupstream informative
     set -g __fish_git_prompt_showcolorhints 1
     set -g __fish_git_prompt_use_informative_chars 1
-    set -g __fish_git_prompt_char_untrackedfiles "?"
-    set -g __fish_git_prompt_char_stateseparator ""
 
     set -l cwd (prompt_pwd)
     set -l vcs (fish_vcs_prompt '(%s)' 2>/dev/null)
