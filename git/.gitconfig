@@ -1,0 +1,24 @@
+# This is Git's per-user configuration file.
+[user]
+	email = alxez98@gmail.com
+	name = topkech
+
+[core]
+	sshCommand = "ssh -i ~/.ssh/id_ed25519"
+
+[includeIf "gitdir:~/Work/"]
+	path = ~/Work/.gitconfig
+
+[push]
+	autoSetupRemote = true
+
+[column]
+  ui = auto
+
+[branch]
+  sort = -committerdate
+
+[fetch]
+  prune = true
+  pruneTags = true
+  all = true

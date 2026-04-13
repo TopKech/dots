@@ -1,0 +1,5 @@
+[user]
+	name = oleksandr-c
+	email = a.cherepanov@quantumobile.com
+[core]
+	sshCommand = "ssh -i ~/.ssh/id_rsa"

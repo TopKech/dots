@@ -7,6 +7,11 @@ if status is-interactive
     alias gd="git -c diff.external=difft diff"
 end
 
+zoxide init fish | source
+
+# uv
+fish_add_path "/Users/topkech/.local/bin"
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 if test -f /opt/homebrew/Caskroom/mambaforge/base/bin/conda
@@ -23,10 +28,3 @@ if test -f "/opt/homebrew/Caskroom/mambaforge/base/etc/fish/conf.d/mamba.fish"
     source "/opt/homebrew/Caskroom/mambaforge/base/etc/fish/conf.d/mamba.fish"
 end
 # <<< conda initialize <<<
-
-source /opt/homebrew/Cellar/chruby-fish/1.0.0/share/fish/vendor_functions.d/chruby.fish
-source /opt/homebrew/Cellar/chruby-fish/1.0.0/share/fish/vendor_conf.d/chruby_auto.fish
-zoxide init fish | source
-
-# uv
-fish_add_path "/Users/topkech/.local/bin"
