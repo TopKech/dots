@@ -7,6 +7,8 @@ if status is-interactive
     alias gd="git -c diff.external=difft diff"
 end
 
+set -U fish_greeting
+
 zoxide init fish | source
 
 # uv
