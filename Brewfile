@@ -3,7 +3,6 @@
 tap "anomalyco/tap"
 
 brew "aria2"
-brew "awscli"
 brew "btop"
 brew "cmake"
 brew "difftastic"
