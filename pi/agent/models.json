@@ -6,10 +6,7 @@
       "baseUrl": "http://127.0.0.1:8080/v1",
       "models": [
         {
-          "id": "google_gemma-4-E4B-it-Q5_K_S"
-        },
-        {
-          "id": "google_gemma-4-E2B-it-Q4_K_M"
+          "id": "gemma-4-E4B-it-UD-Q5_K_XL"
         }
       ]
     }

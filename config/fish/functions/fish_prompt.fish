@@ -4,7 +4,7 @@ function fish_prompt
     set -l cwd (prompt_pwd)
     set -l failure (__prompt_status_label "$last_status")
 
-    set_color $fish_color_cwd
+    set_color green
     printf '%s' "$cwd"
     printf ' '
 
