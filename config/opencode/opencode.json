@@ -9,20 +9,13 @@
         "baseURL": "http://127.0.0.1:8080/v1"
       },
       "models": {
-        "google_gemma-4-E4B-it-Q5_K_S": {
-          "name": "Gemma 4 E4B IT Q5_K_S",
+        "gemma-4-E4B-it-UD-Q5_K_XL": {
+          "name": "Gemma 4 E4B IT UD Q5_K_XL",
           "limit": {
             "context": 131072,
             "output": 65536
           }
         },
-        "google_gemma-4-E2B-it-Q4_K_M": {
-          "name": "Gemma 4 E2B IT Q4_K_M",
-          "limit": {
-            "context": 131072,
-            "output": 65536
-          }
-        }
       }
     }
   },
