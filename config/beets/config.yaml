@@ -1,0 +1,36 @@
+directory: /Users/topkech/Music/Musiclib/original
+library: /Users/topkech/Music/Musiclib/beets.db
+
+import:
+  copy: yes
+  move: no
+  write: yes
+
+paths:
+  default: $albumartist/$album%aunique{}/$track - $title
+  singleton: Singles/$artist/$title
+
+plugins:  musicbrainz fetchart fish convert scrub lyrics embedart
+
+lyrics:
+  auto: no
+fetchart:
+  auto: yes
+
+# --- Mobile export (AAC 256k M4A) ---
+convert:
+  dest: /Users/topkech/Music/Musiclib/mobile
+  format: aac256
+
+  never_convert_lossy_files: yes
+
+  embed: yes
+
+  copy_album_art: yes
+
+  album_art_maxwidth: 1200
+
+  formats:
+    aac256:
+      extension: m4a
+      command:  ffmpeg -i "$source" -y -vn -af "aformat=sample_rates=48000" -c:a aac_at -b:a 256k -movflags +faststart "$dest"
