@@ -15,6 +15,20 @@
             "context": 131072,
             "output": 65536
           }
+        },
+        "gemma-4-12B-it-qat-UD-Q4_K_XL": {
+          "name": "Gemma 4 12B IT QAT UD Q4_K_XL",
+          "limit": {
+            "context": 131072,
+            "output": 65536
+          }
+        },
+        "Bonsai-27B-Q1_0": {
+          "name": "Bonsai 27B Q1_0",
+          "limit": {
+            "context": 131072,
+            "output": 65536
+          }
         }
       }
     }

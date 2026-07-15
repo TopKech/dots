@@ -1,5 +1,5 @@
 {
   "theme": "ayu-light",
   "defaultProvider": "llama.cpp",
-  "defaultModel": "gemma-4-E4B-it-UD-Q5_K_XL"
+  "defaultModel": "Bonsai-27B-Q1_0"
 }

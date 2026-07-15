@@ -7,6 +7,12 @@
       "models": [
         {
           "id": "gemma-4-E4B-it-UD-Q5_K_XL"
+        },
+        {
+          "id": "gemma-4-12B-it-qat-UD-Q4_K_XL"
+        },
+        {
+          "id": "Bonsai-27B-Q1_0"
         }
       ]
     }
